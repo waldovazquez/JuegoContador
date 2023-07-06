@@ -1,0 +1,40 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container__content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.messageContainer {
+    align-items: center;
+    color: #3A86FF;
+    display: flex;
+    font-size: 24px;
+    height: 32px;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.container__time {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container__time__counter {
+    padding-top: 20px;
+}

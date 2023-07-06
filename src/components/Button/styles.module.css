@@ -1,0 +1,32 @@
+.btn {
+    background-color: #3A86FF;
+    border-radius: 2em;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    padding: 1em 2em 1em 2em;
+    width: 160px;
+}
+
+.btn:disabled,
+.btn[disabled] {
+    background-color: gainsboro;
+    border: 2px solid gray;
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+    user-select: none;
+}
+
+.btn:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #3A86FF;
+    color: #3A86FF;
+}
+
+.btn:active {
+    opacity: 0.5;
+}

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    padding: 1em 2em;
+    user-select: none;
+}
+
+.score {
+    color: #3A86FF;
+    font-weight: bold;
+}
